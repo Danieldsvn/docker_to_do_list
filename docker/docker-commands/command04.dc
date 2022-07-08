@@ -1,2 +1,2 @@
-docker exec -it 01container sh
+docker exec -it 01container
 cat /etc/os-release
