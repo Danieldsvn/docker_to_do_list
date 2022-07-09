@@ -1,7 +1,7 @@
 FROM mjgargani/puppeteer:trybe1.0
 WORKDIR /todo-app/tests
+ENTRYPOINT ["npm","test"]
 ADD node_modules.tar.gz /todo-app/tests/
-COPY *.* /todo-app/tests/
-ENTRYPOINT ["npm test"]
+COPY . /todo-app/tests/
 ENV FRONT_HOST=localhost
 ENV FRONT_PORT=3000
