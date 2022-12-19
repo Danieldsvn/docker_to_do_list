@@ -1,13 +1,32 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Docker To Do List
+18º projeto na Trybe. Neste projeto eu pratico:
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+1. **_Conteinerizar_** aplicações;
+1. Criar uma conexão entre elas;
+1. Orquestrar seu funcionamento.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+Há uma aplicação full-stack já provida: um **aplicativo de tarefas**!  dos Dockerfile do front e do back e o docker composer. Além disso é praticado comandos diversos do docker nos arquivos .dc
+
+## Tecnologias empregadas:
+
+Docker
+
+## Habilidades praticadas
+
+* Criação, remoção de imagens e containers docker;
+
+* Startar, parar e interagir com um container docker;
+
+ * **_Conteinerizar_** aplicações;
+
+* Criar uma conexão entre elas;
+
+* Orquestrar seu funcionamento.
+
+## O que é de minha autoria:
+
+* Os arquivos `.dc` do diretório `.docker/docker-commands` e o arquivo `.*/*.`
+* Os arquivos `Dockerfile` em `.docker/todo-app/back-end`, `.docker/todo-app/front-end` e `.docker/todo-app/tests`
+* O arquivo `docker-compose.yml` em `.docker/todo-app`
+
+
