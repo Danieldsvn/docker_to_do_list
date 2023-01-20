@@ -5,7 +5,7 @@
 1. Criar uma conexão entre elas;
 1. Orquestrar seu funcionamento.
 
-Há uma aplicação full-stack já provida: um **aplicativo de tarefas**!  dos Dockerfile do front e do back e o docker composer. Além disso é praticado comandos diversos do docker nos arquivos .dc
+Há uma aplicação full-stack já provida: um **aplicativo de tarefas**!  Há Dockerfile do front e do back e o docker composer. Além disso é praticado comandos diversos do docker nos arquivos .dc
 
 ## Tecnologias empregadas:
 
